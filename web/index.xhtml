@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./plantilla.xhtml">
+
+            <ui:define name="top">
+                <h2>Campeonatos de futbol</h2>
+            </ui:define>
+
+            <ui:define name="left">
+                <h3>Enlaces:</h3>
+                <ul>
+                    <li>
+                        <h:outputLink value="#">
+                            <h:outputText value="Super copa"/>
+                        </h:outputLink>
+                    </li>
+                    <li>
+                        <h:outputLink value="#">
+                            <h:outputText value="Champions"/>
+                        </h:outputLink>
+                    </li>
+                    <li>
+                        <h:outputLink value="#">
+                            <h:outputText value="Euro copa"/>
+                        </h:outputLink>
+                    </li>
+                </ul>
+            </ui:define>
+
+            <ui:define name="content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+
+Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
